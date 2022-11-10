@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter';
+    background-color:hsl(36, 100%, 99%) ;
+}
+.logo{
+    font-family:'Inter';
+    font-size: 20px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+   display: inline-block;
+   margin-right: 20px; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+.col-left{
+    display: flex;
+    padding: 1rem;
+    margin: 0.5rem;
+    align-items: flex-start;
+    justify-content: left;
+}
+.img{
+    display: flexbox;
+    width: 750px;
+    padding-left: 30px;
+}
+.CTA{
+    padding-left: 50px;
+    text-align: left; 
+    display: flex; 
+    font: 2em sans-serif;  
+}
+.CTU{
+    display: flex;
+    color:hsl(236, 13%, 42%) ;
+    margin-left: 140px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+/* .btn{
+    border: none;
+    display: flex;
+    margin: auto;
+    background-color: hsl(5, 85%, 63%);
+    font-size: 14px;
+    padding: 14px 40px;
+    text-decoration: none;
+} */
+.col-right{
+    flex: right;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    border: none;
+    margin-left: 55px;
+    margin-right: 0px;
+    font-size: 14px;
+}
+.header{
+    color: hsl(35, 77%, 62%);
+}
+.Hero{
+    padding-top: 100px;
+    padding-left: 55px;
+    justify-content: space-between;
+}
+.ETA{
+    display: flex;     
+}
+.ZN{
+    color: hsl(233, 8%, 79%);
+    align-content: center;
+    padding-left: 20px;
+}
+.NA{
+    color: hsl(240, 100%, 5%);
+    padding-top: 40px;
+    font-size: 14px;
+    padding-right: 20px;
+}
+.CO{ 
+    color: hsl(233, 8%, 79%);
+    font-size: 14px;
+    padding-top: 100px;
+    font: size 14px;
+     
+}
+.Alpha{
+    height: 140px;
+    padding-right: 30px;
+    display: flex;
+}
+.omega{
+    height: 140px;
+    padding-right: 30px;
+    display: flex;
+}
+.November{
+    height: 140px;
+    padding-right: 30px;
+    display: flex;
+}
